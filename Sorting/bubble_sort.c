@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Problem: Bubble Sort
 Category: Sorting
@@ -36,4 +37,44 @@ int main()
         printf("%d ", arr[i]);
     }
     return 0;
+=======
+/*
+Problem: Bubble Sort
+Category: Sorting
+Language: C
+
+Time Complexity: O(n^2)
+Space Complexity: O(1)
+*/
+
+#include <stdio.h>
+int main() 
+{
+    int arr[100], n, i, j, temp;
+    printf("Enter number of elements: ");
+    scanf("%d", &n);
+    printf("Enter %d elements:\n", n);
+    for (i = 0; i < n; i++) 
+    {
+        scanf("%d", &arr[i]);
+    }
+    for (i = 0; i < n - 1; i++) 
+    {
+        for (j = 0; j < n - i - 1; j++) 
+        {
+            if (arr[j] > arr[j + 1]) 
+            {
+                temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+    printf("Sorted array in ascending order:\n");
+    for (i = 0; i < n; i++) 
+    {
+        printf("%d ", arr[i]);
+    }
+    return 0;
+>>>>>>> be6c158c94aa6180f70fc7fb09e8cd3e1fd20361
 }
