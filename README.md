@@ -15,4 +15,4 @@ This repository contains my DSA practice categorized by topics.
 - Prepare for coding interviews
 
 ## 🛠 Language
-- C++ / Python
+- C / Python
