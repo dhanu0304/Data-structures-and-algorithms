@@ -24,9 +24,15 @@ This repository contains my structured practice of **Data Structures and Algorit
 
 ## 🎯 Goals
 
+<<<<<<< HEAD
 * Strengthen problem-solving skills
 * Prepare for coding interviews
 * Build a strong DSA foundation
+=======
+* Improve problem-solving skills
+* Prepare for coding interviews
+* Build strong DSA fundamentals
+>>>>>>> f8ddfb6ca18d0d246acc8a08671e30674d764ce0
 
 ---
 
@@ -46,6 +52,13 @@ This repository contains my structured practice of **Data Structures and Algorit
 
 ## ⭐ Future Plans
 
+<<<<<<< HEAD
 * Add Linked List
 * Add Stack & Queue
 * Add Trees & Graphs
+=======
+* Linked List
+* Stack
+* Queue
+* Trees & Graphs
+>>>>>>> f8ddfb6ca18d0d246acc8a08671e30674d764ce0
