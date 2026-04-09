@@ -49,3 +49,20 @@ struct node* insertPosition(struct node* head, int Data, int pos) {
     temp->next = newNode;
     return head; // Head remains unchanged
 }
+int main() {
+    struct node* head = NULL;
+    head = insertAtBegin(head, 10);
+    head = insertAtBegin(head, 20);
+    head = insertAtEnd(head, 30);
+    head = insertPosition(head, 25, 2);
+    
+    // Print the linked list
+    struct node* temp = head;
+    while (temp != NULL) {
+        printf("%d -> ", temp->data);
+        temp = temp->next;
+    }
+    printf("NULL\n");
+    
+    return 0;
+}
