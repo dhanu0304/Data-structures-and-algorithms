@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*
 Problem: Bubble Sort
 Category: Sorting
@@ -37,7 +37,7 @@ int main()
         printf("%d ", arr[i]);
     }
     return 0;
-=======
+}
 /*
 Problem: Bubble Sort
 Category: Sorting
@@ -76,5 +76,4 @@ int main()
         printf("%d ", arr[i]);
     }
     return 0;
->>>>>>> be6c158c94aa6180f70fc7fb09e8cd3e1fd20361
 }

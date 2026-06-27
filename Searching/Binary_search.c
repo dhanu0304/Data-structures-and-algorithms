@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*
 Problem: Binary Search
 Category: Searching
@@ -39,7 +38,6 @@ int main(){
         printf("Element not found");
         }
 return 0;
-=======
 /*
 Problem: Binary Search
 Category: Searching
@@ -80,5 +78,4 @@ int main(){
         printf("Element not found");
         }
 return 0;
->>>>>>> be6c158c94aa6180f70fc7fb09e8cd3e1fd20361
 }
